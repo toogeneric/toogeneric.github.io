@@ -1,0 +1,23 @@
+{
+  "name": "simonthe.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toogeneric/toogeneric.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toogeneric/toogeneric.github.io/issues"
+  },
+  "homepage": "https://github.com/toogeneric/toogeneric.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
